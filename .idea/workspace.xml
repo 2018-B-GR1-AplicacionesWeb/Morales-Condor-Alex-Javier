@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc3fa698-ac9b-4d10-8dcc-ee4e477f8f85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01-Javascript/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-Javascript/05-callbacks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-Javascript/05-nodejs-02/01-util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-Javascript/05-nodejs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-Javascript/05-nodejs/01-app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-Javascript/05-nodejs/02-calculadora.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-Javascript/05-nodejs/tiempo/01-tiempo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-Javascript/05-texto.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-Javascript/05-callbacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-Javascript/05-callbacks.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,7 +49,7 @@
     <session id="1678008827">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.41" value="1" />
@@ -67,28 +62,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="4" />
-          <entry key="js" value="9" />
+          <entry key="js" value="10" />
           <entry key="json" value="2" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="9" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="JavaScript" value="10" />
+          <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="17" />
-          <entry key="js" value="2374" />
+          <entry key="js" value="2867" />
           <entry key="json" value="117" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="117" />
-          <entry key="JavaScript" value="2374" />
+          <entry key="JavaScript" value="2867" />
           <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
@@ -96,63 +92,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-Javascript/05-callbacks.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01-Javascript/05-nodejs/01-app.js">
+        <entry file="file://$PROJECT_DIR$/01-Javascript/05-callbacks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            <state relative-caret-position="385">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/express/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-595">
-              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-Javascript/05-nodejs/tiempo/01-tiempo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-Javascript/05-nodejs-02/01-util.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-Javascript/05-nodejs/02-calculadora.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-Javascript/alex.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/01-Javascript/05-texto.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -178,13 +129,13 @@
         <option value="$PROJECT_DIR$/01-Javascript/03-arreglos.js" />
         <option value="$PROJECT_DIR$/01-Javascript/02-funciones.js" />
         <option value="$PROJECT_DIR$/01-Javascript/04-operadores.js" />
-        <option value="$PROJECT_DIR$/01-Javascript/05-callbacks.js" />
         <option value="$PROJECT_DIR$/01-Javascript/05-nodejs-02/01-util.js" />
         <option value="$PROJECT_DIR$/01-Javascript/05-nodejs/02-calculadora.js" />
         <option value="$PROJECT_DIR$/01-Javascript/05-nodejs/tiempo/01-tiempo.js" />
         <option value="$PROJECT_DIR$/01-Javascript/05-nodejs/01-app.js" />
         <option value="$PROJECT_DIR$/01-Javascript/05-nodejs/.gitignore" />
         <option value="$PROJECT_DIR$/01-Javascript/.gitignore" />
+        <option value="$PROJECT_DIR$/01-Javascript/05-callbacks.js" />
       </list>
     </option>
   </component>
@@ -246,12 +197,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.05-callbacks.js">
     <configuration name="01-app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="01-app.js" working-dir="$PROJECT_DIR$/01-Javascript/05-nodejs">
       <method v="2" />
     </configuration>
+    <configuration name="05-callbacks.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="05-callbacks.js" working-dir="$PROJECT_DIR$/01-Javascript">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.01-app.js" />
+      <item itemvalue="Node.js.05-callbacks.js" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.05-callbacks.js" />
         <item itemvalue="Node.js.01-app.js" />
       </list>
     </recent_temporary>
@@ -272,23 +231,23 @@
       <workItem from="1540045393106" duration="142000" />
       <workItem from="1540218621899" duration="2162000" />
       <workItem from="1540346367416" duration="44000" />
-      <workItem from="1540390369663" duration="3357000" />
+      <workItem from="1540390369663" duration="5522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14506000" />
+    <option name="totallyTimeSpent" value="16671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13645943" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13645943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -354,16 +313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-Javascript/04-operadores.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-Javascript/05-callbacks.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/01-Javascript/05-nodejs/02-calculadora.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -417,6 +366,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Javascript/04-operadores.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Javascript/05-texto.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Javascript/05-callbacks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>
