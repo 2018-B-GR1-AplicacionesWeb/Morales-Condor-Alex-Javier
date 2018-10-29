@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc3fa698-ac9b-4d10-8dcc-ee4e477f8f85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01-Javascript/05-texto.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-Javascript/06-callback-propio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-Javascript/07-promesas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Javascript/05-callbacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-Javascript/05-callbacks.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,54 +49,84 @@
     <session id="1678008827">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.63" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="4" />
-          <entry key="js" value="10" />
+          <entry key="js" value="13" />
           <entry key="json" value="2" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="10" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="JavaScript" value="13" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="17" />
-          <entry key="js" value="2867" />
+          <entry key="js" value="4678" />
           <entry key="json" value="117" />
+          <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="117" />
-          <entry key="JavaScript" value="2867" />
-          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="JavaScript" value="4678" />
+          <entry key="PLAIN_TEXT" value="27" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01-Javascript/05-callbacks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="187">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01-Javascript/06-callback-propio.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="41" selection-start-line="41" selection-end-line="50" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01-Javascript/07-promesas.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="718">
+              <caret line="97" column="6" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01-Javascript/06-texto.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -136,6 +166,9 @@
         <option value="$PROJECT_DIR$/01-Javascript/05-nodejs/.gitignore" />
         <option value="$PROJECT_DIR$/01-Javascript/.gitignore" />
         <option value="$PROJECT_DIR$/01-Javascript/05-callbacks.js" />
+        <option value="$PROJECT_DIR$/01-Javascript/06-texto.txt" />
+        <option value="$PROJECT_DIR$/01-Javascript/06-callback-propio.js" />
+        <option value="$PROJECT_DIR$/01-Javascript/07-promesas.js" />
       </list>
     </option>
   </component>
@@ -144,6 +177,58 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/array-flatten/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/body-parser/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/content-disposition/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/encodeurl/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/etag/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/express/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/forwarded/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/ipaddr.js/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/merge-descriptors/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/methods/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/path-to-regexp/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/proxy-addr/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/serve-static/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/01-Javascript/05-nodejs/node_modules/vary/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="96" />
@@ -197,19 +282,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.05-callbacks.js">
+  <component name="RunManager" selected="Node.js.07-promesas.js">
     <configuration name="01-app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="01-app.js" working-dir="$PROJECT_DIR$/01-Javascript/05-nodejs">
       <method v="2" />
     </configuration>
     <configuration name="05-callbacks.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="05-callbacks.js" working-dir="$PROJECT_DIR$/01-Javascript">
       <method v="2" />
     </configuration>
+    <configuration name="06-callback-propio.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="06-callback-propio.js" working-dir="$PROJECT_DIR$/01-Javascript">
+      <method v="2" />
+    </configuration>
+    <configuration name="07-promesas.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="07-promesas.js" working-dir="$PROJECT_DIR$/01-Javascript">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Node.js.01-app.js" />
       <item itemvalue="Node.js.05-callbacks.js" />
+      <item itemvalue="Node.js.06-callback-propio.js" />
+      <item itemvalue="Node.js.07-promesas.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.07-promesas.js" />
+        <item itemvalue="Node.js.06-callback-propio.js" />
         <item itemvalue="Node.js.05-callbacks.js" />
         <item itemvalue="Node.js.01-app.js" />
       </list>
@@ -232,22 +327,24 @@
       <workItem from="1540218621899" duration="2162000" />
       <workItem from="1540346367416" duration="44000" />
       <workItem from="1540390369663" duration="5522000" />
+      <workItem from="1540651836296" duration="560000" />
+      <workItem from="1540822962390" duration="6023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16671000" />
+    <option name="totallyTimeSpent" value="23254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13645943" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119072706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25921908" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -381,8 +478,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01-Javascript/05-callbacks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="187">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Javascript/06-texto.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Javascript/06-callback-propio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="41" selection-start-line="41" selection-end-line="50" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Javascript/07-promesas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="97" column="6" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
         </state>
       </provider>
     </entry>
