@@ -51,7 +51,7 @@ nuevaPromesaLectura
 
 // ejercicio
 
-const nuevaPromesaAppendFile = (nombreArchivo, contenidoArchivo) => {
+/*const nuevaPromesaAppendFile = (nombreArchivo, contenidoArchivo) => {
     return new Promise(
         (resolve, reject) => {
             fs.readFile(nombreArchivo,'utf-8',
@@ -95,4 +95,54 @@ nuevaPromesaAppendFile
         () => {
             console.log('Algo malo paso', resultadoError);
         }
+    );*/
+
+function ejercicioDeArchivosPromesa(arregloStrings) {
+
+    return new Promise(
+        (resolve,reject)=>{
+            const arregloRespuestas = [];
+
+            arregloStrings
+                .forEach(
+                    (string, indice) => {
+                        const archivo = `${indice}-${string}.txt`;
+                        const contenido = string;
+                        fs.writeFile(archivo,
+                            contenido,
+                            (err) => {
+                                const respuesta = {
+                                    nombreArchivo: archivo,
+                                    contenidoArchivo: contenido,
+                                    error: err
+                                };
+                                arregloRespuestas.push(respuesta);
+                                const tamanoRespuestas = arregloRespuestas.length;
+                                if (tamanoRespuestas === arregloStrings.length) {
+                                    resolve(arregloRespuestas)
+                                }
+                            });
+                    }
+                );
+        }
     );
+
+}
+
+
+const funcionConCallback = function (parametros, callback) {
+    callback()
+};
+
+const funcionConPromesa = function (parametros) {
+    return new Promise(
+        (resolve, reject) => {
+            resolve();
+            reject();
+        }
+    )
+};
+
+
+
+
