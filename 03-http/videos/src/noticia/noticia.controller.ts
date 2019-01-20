@@ -117,8 +117,6 @@ export class NoticiaController {
           noticia: noticiaEncontrada
         }
       )
-
-
   }
 
   @Post('actualizar-noticia/:idNoticia')
